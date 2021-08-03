@@ -4,7 +4,7 @@ As a user I should be able to add a new link and delete the same
 Background: 
    Given I successfully login to linktr.ee application
 
-Scenario Outline: Verify once the link editor is deleted
+Scenario Outline: Add and delete the link editor 
         Given I have link editor with <Title> and <Url>
         When I click on delete icon
         And I click on delete button
