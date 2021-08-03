@@ -1,0 +1,31 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cypress open"
+  },
+  "author": "\"Keyur\"",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "./cypress/integration/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber",
+      "overwrite": true
+    }
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}

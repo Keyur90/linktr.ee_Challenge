@@ -1,0 +1,14 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "cSpell.words": ["Bcheck", "TIKTOK", "linktr", "testid"],
+  "cSpell.language": "en-GB",
+  "cucumberautocomplete.steps": ["cypress/integration/step_definitions/*.js"],
+  "cucumberautocomplete.syncfeatures": "cypress/integration/features/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true
+}

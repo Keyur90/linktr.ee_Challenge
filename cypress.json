@@ -1,0 +1,11 @@
+{
+    "experimentalSourceRewriting": false,
+    "modifyObstructiveCode": false,
+    "chromeWebSecurity": false,
+    "video": true,
+    "experimentalStudio": true,
+    "defaultCommandTimeout": 20000,
+    "pageLoadTimeout": 80000,
+    "baseUrl": "https://linktr.ee/login",
+    "testFiles": "**/*.feature"
+}

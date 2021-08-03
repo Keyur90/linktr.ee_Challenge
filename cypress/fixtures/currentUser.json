@@ -1,0 +1,69 @@
+{
+  "data": {
+    "currentUser": {
+      "selectedAccount": {
+        "id": 17602625,
+        "username": "swe_test",
+        "isActive": true,
+        "profilePictureUrl": "https://d1fdloi71mui9q.cloudfront.net/VNdj7zybTlKkTMaXFej0_KaN3RgrnmGcskVAw",
+        "pageTitle": "@swe_test",
+        "googleAnalyticsId": null,
+        "facebookPixelId": null,
+        "donationsActive": true,
+        "causeBanner": "BLM",
+        "contentWarning": null,
+        "description": "dfbfdfdb",
+        "isLogoVisible": true,
+        "socialLinksPosition": "BOTTOM",
+        "expandableLinkCaret": true,
+        "owner": {
+          "id": 19287589,
+          "isEmailVerified": true
+        },
+        "pageMeta": null,
+        "integrations": [],
+        "links": [
+          {
+            "id": 94478345,
+            "type": "CLASSIC",
+            "title": "",
+            "url": "",
+            "active": true,
+            "position": 0,
+            "modifiers": {
+              "animation": null,
+              "isForwarding": false,
+              "isForwardingActive": false,
+              "thumbnailUrl": null,
+              "amazonAffiliate": null
+            },
+            "rules": {
+              "gate": {
+                "activeOrder": null,
+                "age": null
+              }
+            },
+            "context": null
+          }
+        ],
+        "socialLinks": [
+          {
+            "type": "TWITTER",
+            "url": "https://twitter.com/linktree_"
+          },
+          {
+            "type": "INSTAGRAM",
+            "url": "https://instagram.com/linktr.ee"
+          },
+          {
+            "type": "TIKTOK",
+            "url": "https://tiktok.com/@linktr.ee"
+          }
+        ],
+        "theme": {
+          "key": "luke-john-matthew-arnold"
+        }
+      }
+    }
+  }
+}
