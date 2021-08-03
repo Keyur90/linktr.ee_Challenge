@@ -11,3 +11,7 @@ Once the package is installed, write “cypress run -b chrome --headless” to r
 on to your system.
 To execute the test cases on headed mode write “cypress open” in the terminal, this will open the cypress window where you will see the
 feature files, and you can execute them by clicking on the same.
+
+# Cucumber Report
+To run the report
+just write "node .\cucumber-report.js" in Terminal and open index.html file within report folder. This will open the Cucumber report
