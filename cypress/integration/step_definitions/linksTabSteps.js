@@ -11,13 +11,13 @@ Given("I am on links tab", () => {
 });
 
 Given("I have link editor with {} and {}", (Title, Url) => {
-  cy.fixture("getLinks").then(function (_) {
-    const items = _.data.getLinks.items[0];
+  cy.fixture("addLink").then(function (_) {
+    const items = _.data.addLink;
     items.title = Title;
     items.url = Url;
 
     interceptGql(cy, "/graphql", {
-      getLinks: { body: _ },
+      addLink: { body: _ },
     });
   });
 });
@@ -57,4 +57,8 @@ Then("I provided the age", () => {
 
 Then("I should see a message Gate is activated", () => {
   linksPg.messageGate().should("exist");
+});
+
+Then("I click on Add new Link button", () => {
+  linksPg.addLink().click();
 });

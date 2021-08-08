@@ -39,6 +39,9 @@ class linksTabPage {
   messageGate() {
     return cy.contains("Gate is activated");
   }
+  addLink() {
+    return cy.get('button[data-testid="LinkEditor_Link_Add_Button"]');
+  }
 }
 
 export default linksTabPage;

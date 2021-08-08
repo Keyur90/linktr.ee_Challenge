@@ -6,6 +6,7 @@ Background:
 
 Scenario Outline: Add and delete the link editor 
         Given I have link editor with <Title> and <Url>
+        And I click on Add new Link button
         When I click on delete icon
         And I click on delete button
         Then I should see the message of not having any links
@@ -16,6 +17,7 @@ Scenario Outline: Add and delete the link editor
 
 Scenario Outline: Gate the link by date of birth
         Given I have link editor with <Title> and <Url>
+        And I click on Add new Link button
         When I click on gate button
         And I click on checkbox of Date of Birth
         And I provided the age

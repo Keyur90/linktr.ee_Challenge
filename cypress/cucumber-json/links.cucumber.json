@@ -9,10 +9,10 @@
     "uri": "links.feature",
     "elements": [
       {
-        "id": "add,-delete-and-gate-the-link;verify-once-the-link-editor-is-deleted",
+        "id": "add,-delete-and-gate-the-link;add-and-delete-the-link-editor",
         "keyword": "Scenario",
-        "line": 15,
-        "name": "Verify once the link editor is deleted",
+        "line": 16,
+        "name": "Add and delete the link editor",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -23,7 +23,7 @@
             "name": "I successfully login to linktr.ee application",
             "result": {
               "status": "passed",
-              "duration": 16030000000
+              "duration": 13894000000
             }
           },
           {
@@ -33,36 +33,47 @@
             "name": "I have link editor with Google and https://www.google.com/",
             "result": {
               "status": "passed",
-              "duration": 24000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 9,
-            "name": "I click on delete icon",
-            "result": {
-              "status": "failed",
-              "duration": 31966000000,
-              "error_message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `button[data-testid=\"LinkEditor_DeletePanel_Toggle_Button11\"]`, but never found it.\n    at linksTabPage.deleteIcon (https://linktr.ee/__cypress/tests?p=cypress\\integration\\features\\links.feature:176:17)\n    at Context.eval (https://linktr.ee/__cypress/tests?p=cypress\\integration\\features\\links.feature:83:11)\n    at Context.resolveAndRunStepDefinition (https://linktr.ee/__cypress/tests?p=cypress\\integration\\features\\links.feature:10589:29)\n    at Context.eval (https://linktr.ee/__cypress/tests?p=cypress\\integration\\features\\links.feature:9910:35)"
+              "duration": 15000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
+            "line": 9,
+            "name": "I click on Add new Link button",
+            "result": {
+              "status": "passed",
+              "duration": 11814000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
             "line": 10,
+            "name": "I click on delete icon",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
             "name": "I click on delete button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 164000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 12,
             "name": "I should see the message of not having any links",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 44000000
             }
           }
         ]
@@ -70,7 +81,7 @@
       {
         "id": "add,-delete-and-gate-the-link;gate-the-link-by-date-of-birth",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 28,
         "name": "Gate the link by date of birth",
         "tags": [],
         "type": "scenario",
@@ -82,57 +93,67 @@
             "name": "I successfully login to linktr.ee application",
             "result": {
               "status": "passed",
-              "duration": 9376000000
+              "duration": 8837000000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 18,
+            "line": 19,
             "name": "I have link editor with Google and https://www.google.com/",
             "result": {
               "status": "passed",
-              "duration": 21000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 19,
-            "name": "I click on gate button",
-            "result": {
-              "status": "passed",
-              "duration": 10552000000
+              "duration": 5000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 20,
-            "name": "I click on checkbox of Date of Birth",
+            "name": "I click on Add new Link button",
             "result": {
               "status": "passed",
-              "duration": 428000000
+              "duration": 9805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on gate button",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 21,
+            "line": 22,
+            "name": "I click on checkbox of Date of Birth",
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
             "name": "I provided the age",
             "result": {
               "status": "passed",
-              "duration": 369000000
+              "duration": 267000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 22,
+            "line": 24,
             "name": "I should see a message Gate is activated",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 35000000
             }
           }
         ]

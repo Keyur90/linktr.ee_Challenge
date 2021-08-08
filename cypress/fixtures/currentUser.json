@@ -22,30 +22,7 @@
         },
         "pageMeta": null,
         "integrations": [],
-        "links": [
-          {
-            "id": 94478345,
-            "type": "CLASSIC",
-            "title": "",
-            "url": "",
-            "active": true,
-            "position": 0,
-            "modifiers": {
-              "animation": null,
-              "isForwarding": false,
-              "isForwardingActive": false,
-              "thumbnailUrl": null,
-              "amazonAffiliate": null
-            },
-            "rules": {
-              "gate": {
-                "activeOrder": null,
-                "age": null
-              }
-            },
-            "context": null
-          }
-        ],
+        "links": [],
         "socialLinks": [
           {
             "type": "TWITTER",
